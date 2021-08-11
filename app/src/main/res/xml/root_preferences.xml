@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/reminder_header">
+
+        <SwitchPreference
+            app:key="@string/pref_key_notify"
+            app:summary="@string/pref_notify_summary"
+            app:title="@string/pref_notify_name" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/night_mode_header">
+
+        <SwitchPreference
+            app:key="@string/pref_key_night_mode"
+            app:summary="@string/pref_night_mode_summary"
+            app:title="@string/pref_night_mode" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
