@@ -81,17 +81,18 @@ Write UI test to validate when user tap Add Task (+), the AddTaskActivity displa
 
 If your submission does not match the required criteria, it will be rejected by our Academy Code Reviewers. Below are some items that you will need to avoid:
 
-The initial data list from local JSON does not appear.
-Filter menu not working properly.
-The state of the TitleTextView does not match.
-Failed to add new data.
-Failed to delete data, either from the detail page or by swiping the list.
-Data is not updated and SnackBar does not appear when the checkbox is checked.
-Reminder notifications cannot be displayed on Oreo devices and above.
-UI testing failed or not according to the scenario.
-Having a Zip file in the Zip file that you submitted (multiple layers of zip files).
-Force closed application.
-The project cannot be built.
-Submit files other than the Android Studio project.
-Submitting projects that are not your own work.
-Delete or code in starter project/base code. (example: change GridLayout to LinearLayout).
+1. The initial data list from local JSON does not appear.
+2. Filter menu not working properly.
+
+4. The state of the TitleTextView does not match.
+5. Failed to add new data.
+6. Failed to delete data, either from the detail page or by swiping the list.
+7. Data is not updated and SnackBar does not appear when the checkbox is checked.
+8. Reminder notifications cannot be displayed on Oreo devices and above.
+9. UI testing failed or not according to the scenario.
+10. Having a Zip file in the Zip file that you submitted (multiple layers of zip files).
+11. Force closed application.
+12. The project cannot be built.
+13. Submit files other than the Android Studio project.
+14. Submitting projects that are not your own work.
+15. Delete or code in starter project/base code. (example: change GridLayout to LinearLayout).
