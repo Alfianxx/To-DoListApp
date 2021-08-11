@@ -68,15 +68,15 @@ Code Submission
 Complete the tasks below. You can download the starter project here:
 Starter Project To-Do App
 
-Define a local database table and DAO (data access object) based on schema in app/schemas/tasks.json. Use FilterUtils#geFilteredQuery to create a filterable query.
-Initiate RecyclerView with TaskAdapter and update database when onCheckChange.
-Display title in list-item based on state using TitleTextView (CustomView).
-Show a detailed task when the list is selected and implement a delete action.
-Create AddTaskViewModel class to insert a new "task" into the database.
-Schedule and cancel daily reminder using WorkManager. If notification preference is on, get the nearest active task from the repository and show notification with pending intent.
-Address the following comment from the QA team:
-SnackBar does not show when the task completed/activated.
-Write UI test to validate when user tap Add Task (+), the AddTaskActivity displayed.
+1. Define a local database table and DAO (data access object) based on schema in app/schemas/tasks.json. Use FilterUtils#geFilteredQuery to create a filterable query.
+2. Initiate RecyclerView with TaskAdapter and update database when onCheckChange.
+3. Display title in list-item based on state using TitleTextView (CustomView).
+4. Show a detailed task when the list is selected and implement a delete action.
+5. Create AddTaskViewModel class to insert a new "task" into the database.
+6. Schedule and cancel daily reminder using WorkManager. If notification preference is on, get the nearest active task from the repository and show notification with pending intent.
+7. Address the following comment from the QA team:
+8. SnackBar does not show when the task completed/activated.
+9. Write UI test to validate when user tap Add Task (+), the AddTaskActivity displayed.
 
 
 If your submission does not match the required criteria, it will be rejected by our Academy Code Reviewers. Below are some items that you will need to avoid:
