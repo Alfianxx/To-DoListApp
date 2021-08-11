@@ -83,16 +83,15 @@ If your submission does not match the required criteria, it will be rejected by 
 
 1. The initial data list from local JSON does not appear.
 2. Filter menu not working properly.
-
-4. The state of the TitleTextView does not match.
-5. Failed to add new data.
-6. Failed to delete data, either from the detail page or by swiping the list.
-7. Data is not updated and SnackBar does not appear when the checkbox is checked.
-8. Reminder notifications cannot be displayed on Oreo devices and above.
-9. UI testing failed or not according to the scenario.
-10. Having a Zip file in the Zip file that you submitted (multiple layers of zip files).
-11. Force closed application.
-12. The project cannot be built.
-13. Submit files other than the Android Studio project.
-14. Submitting projects that are not your own work.
-15. Delete or code in starter project/base code. (example: change GridLayout to LinearLayout).
+3. The state of the TitleTextView does not match.
+4. Failed to add new data.
+5. Failed to delete data, either from the detail page or by swiping the list.
+6. Data is not updated and SnackBar does not appear when the checkbox is checked.
+7. Reminder notifications cannot be displayed on Oreo devices and above.
+8. UI testing failed or not according to the scenario.
+9. Having a Zip file in the Zip file that you submitted (multiple layers of zip files).
+10. Force closed application.
+11. The project cannot be built.
+12. Submit files other than the Android Studio project.
+13. Submitting projects that are not your own work.
+14. Delete or code in starter project/base code. (example: change GridLayout to LinearLayout).
