@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dicoding.todoapp">
+    package="com.alfian.todoapp">
 
     <application
         android:allowBackup="true"
@@ -12,15 +12,15 @@
         android:theme="@style/Theme.TodoApp"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".setting.SettingsActivity"
+            android:name="com.alfian.todoapp.setting.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".ui.list.TaskActivity" />
+            android:parentActivityName="com.alfian.todoapp.ui.list.TaskActivity" />
         <activity
-            android:name=".ui.detail.DetailTaskActivity"
-            android:parentActivityName=".ui.list.TaskActivity" />
-        <activity android:name=".ui.add.AddTaskActivity" />
+            android:name="com.alfian.todoapp.ui.detail.DetailTaskActivity"
+            android:parentActivityName="com.alfian.todoapp.ui.list.TaskActivity" />
+        <activity android:name="com.alfian.todoapp.ui.add.AddTaskActivity" />
         <activity
-            android:name=".ui.list.TaskActivity"
+            android:name="com.alfian.todoapp.ui.list.TaskActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TodoApp.NoActionBar">
             <intent-filter>
